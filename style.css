@@ -1,0 +1,88 @@
+body{
+    background-image: url(./imagens/fundo.png);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color:rgb(102, 60, 0);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.p-content{
+    padding: 10px 200px;
+}
+
+.direitos{
+    font-weight: bold;
+    margin: 50px
+}
+div#conteudo{
+    background-color: rgb(175, 151, 117);
+    margin: -23px 205px;
+    padding: 50px;
+    border: 6px solid rgb(226, 202, 167);
+}
+
+div#conteudo img{
+    border: 6px solid rgb(226, 202, 167);
+}
+
+div#capa img{
+    height: 500px;
+    border: 6px solid rgb(226, 202, 167);
+}
+
+#contato{
+    text-align: left;
+}
+
+.navegacao-2{
+    color:rgb(107, 68, 16);
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+
+ul {
+    background-color: rgb(241, 228, 210);
+    border: 6px solid rgb(226, 202, 167);
+    margin: 10px auto 0;
+    display: table;
+    color: white;
+    list-style: none;
+  }
+  li {
+    display: table-cell;
+    position: relative;
+    padding: 30px;
+  
+  }
+  a {
+    color: white;
+    text-transform:uppercase;
+    text-decoration: none;
+    letter-spacing: .25em;
+    
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
+  a:hover:after {
+    width:100%;
+    right: 0;
+  }
+  a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    right: 0;
+    position: absolute;
+    background: rgb(209, 131, 28);
+    transition: width 0.5s ease 0s, right 0.5s ease 0s;
+    width: 0;
+  }
